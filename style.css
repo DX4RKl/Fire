@@ -30,27 +30,27 @@ $loader-dot--size: 20px
     border: 2px solid white
     
     &:first-child
-      background-color: #FF9E00
+      background-color: #8cc759
       animation-delay: 0.5s
     
     &:nth-child(2)
-      background-color: #FF8300
+      background-color: #8c6daf
       animation-delay: 0.4s
     
     &:nth-child(3)
-      background-color: #FF6800
+      background-color: #ef5d74
       animation-delay: 0.3s
     
     &:nth-child(4)
-      background-color: #FF4900
+      background-color: #f9a74b
       animation-delay: 0.2s
     
     &:nth-child(5)
-      background-color: #FF2700
+      background-color: #60beeb
       animation-delay: 0.1s
     
     &:nth-child(6)
-      background-color: #FF0000
+      background-color: #fbef5a
       animation-delay: 0s
   
   &--text
@@ -62,7 +62,7 @@ $loader-dot--size: 20px
     margin: auto
 
     &:after
-      content: "Redirecting"      
+      content: "Loading"      
       font-weight: bold
       animation:
         name: loading-text
@@ -84,13 +84,13 @@ $loader-dot--size: 20px
 
 @keyframes loading-text
   0%
-    content: "Redirecting"
+    content: "Loading"
   
   25%
-    content: "Redirecting."
+    content: "Loading."
   
   50%
-    content: "Redirecting.."
+    content: "Loading.."
   
   75%
-    content: "Redirecting..."
+    content: "Loading..."
