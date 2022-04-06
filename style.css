@@ -47,7 +47,7 @@
   animation-delay: 0.1s;
 }
 .loader--dot:nth-child(6) {
-  background-color: #fbef5a;
+  background-color: #FF0000;
   animation-delay: 0s;
 }
 .loader--text {
